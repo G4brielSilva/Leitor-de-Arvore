@@ -12,3 +12,4 @@ Essa estrutura pode ser encadeada desta forma: (raiz(esquerda(esquerda2)(direita
 Para representar NULL na arvore basta usar (-1), desta forma (30(-1)(-1)) pode-se construir, neste exemplo, uma arvore unicamente com uma raiz (30) e ambos nós nulos
 
 *Obs:Esta arvore comporta valores inteiros apenas, podendo ser facilmente alterar, mexendo no arquivo BiblioArv.c*
+
