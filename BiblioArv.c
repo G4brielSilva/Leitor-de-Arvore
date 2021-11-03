@@ -113,7 +113,7 @@ int altura(arvore *arv){
 
 //Verifica se a arvore(arvore *arv) está balanceada
 int balanceada(arvore *arv){
-        if(arv==NULL) return 0;
+        if(arv==NULL) return 1;
 
         int esq=altura(arv->esq);
         int dir=altura(arv->dir);
