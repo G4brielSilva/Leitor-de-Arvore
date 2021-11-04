@@ -118,7 +118,7 @@ int balanceada(arvore *arv){
         int esq=altura(arv->esq);
         int dir=altura(arv->dir);
 
-        if(abs(esq-dir)<= 1) return 1;
+        if((abs(esq-dir)<= 1)&& balanceada(arv->esq) && balanceada(arv->dir)) return 1;
         else return 0;
 }
 
